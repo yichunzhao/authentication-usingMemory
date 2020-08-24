@@ -7,9 +7,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class FrontController {
 
-    @GetMapping("superman")
+    @GetMapping("")
     @ResponseBody
     public String getSuperMan() {
         return "Superman is flying.";
     }
+
 }
